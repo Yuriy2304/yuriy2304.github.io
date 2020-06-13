@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.menu{
+	font-size: 20px;
+	padding: 2px 10px;
+}
+
+.menu>a{
+	text-decoration: none;
+	color: black;
+}
+
+.active{
+	border-bottom: 2px solid black;
+	
+}
+
+.menu>a:hover{
+	border-bottom: 2px solid black;
+}
+
+.banner>h1{
+	margin: 0;
+	font-size: 75px;
+	padding-bottom: 130px;
+}
+
+.main{
+	background: url("divback.png") #E8F0E5;
+	background-repeat: no-repeat;
+	background-position: 95%;
+	height: 400px;
+}
+
+.text{
+	text-align: center;
+	width: 60%;
+	height: 100%;
+	padding: 50px 0;
+	box-sizing: border-box;
+}
+
+.button{
+	text-decoration: none;
+	color: white;
+	background: black;
+	font-size: 35px;
+	padding: 15px 10px;
+	border-radius: 100px;
+}
+
+.button:hover{
+	box-shadow: 0 0 10px black;
+	
+}
+
+.article{
+	background: linear-gradient(to right, gray, black,black);
+	height: 400px;
+	color: white;
+}
+
+.text2{
+	text-align: center;
+	width: 60%;
+	height: 100%;
+	padding: 50px 0;
+	box-sizing: border-box;
+	float: right;
+}
+
+.footer a{
+	color: black;
+}
+
+
+
